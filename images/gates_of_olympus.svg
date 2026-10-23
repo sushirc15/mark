@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 190" width="300" height="190">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E0A3C"/>
+      <stop offset="100%" stop-color="#4A1B8C"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5C542"/>
+      <stop offset="100%" stop-color="#FFE08A"/>
+    </linearGradient>
+    <radialGradient id="zeus-glow">
+      <stop offset="0%" stop-color="#FFE08A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F5C542" stop-opacity="0.1"/>
+    </radialGradient>
+    <linearGradient id="panel-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.1)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.4)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="300" height="190" fill="url(#bg)"/>
+  <rect width="300" height="190" fill="url(#panel-glow)"/>
+
+  <!-- Icon Artwork -->
+  
+            <circle cx="150" cy="90" r="42" fill="url(#zeus-glow)" stroke="#F5C542" stroke-width="3"/>
+            <path d="M150 62 L158 84 L180 84 L162 98 L168 120 L150 106 L132 120 L138 98 L120 84 L142 84 Z" fill="#F5C542"/>
+            <path d="M142 125 L156 125 L145 145 L158 145 L135 175 L143 152 L132 152 Z" fill="#FFE08A"/>
+        
+
+  <!-- Footer Banner -->
+  <rect y="142" width="300" height="48" fill="#0B0B12" fill-opacity="0.88"/>
+  <line x1="0" y1="142" x2="300" y2="142" stroke="#6B2FD6" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- Texts -->
+  <text x="150" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">GATES OF OLYMPUS</text>
+  <text x="150" y="179" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#F5C542" text-anchor="middle" letter-spacing="1.2">PRAGMATIC PLAY</text>
+</svg>

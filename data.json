@@ -1,0 +1,424 @@
+{
+  "stream_status": {
+    "is_live": true,
+    "platform": "Kick",
+    "channel": "mashmanos",
+    "stream_url": "https://kick.com/mashmanos",
+    "title": "🎰 $10,000 BONUS HUNT + SHUFFLE LEADERBOARD RACE! | !BONUS !VOTE",
+    "viewers": 1842,
+    "game": "Slots & Casino",
+    "thumbnail": "/images/gates_of_olympus.svg",
+    "next_stream": "Live Daily at 6:00 PM UTC"
+  },
+  "voting_status": {
+    "is_open": true,
+    "round_name": "Stream #43 Bonus Hunt Selection",
+    "total_votes": 418,
+    "voters": {}
+  },
+  "slots": [
+    {
+      "id": "gates_of_olympus",
+      "name": "Gates of Olympus 1000",
+      "provider": "Pragmatic Play",
+      "image": "/images/gates_of_olympus.svg",
+      "votes": 98,
+      "rtp": "96.50%",
+      "max_win": "15,000x",
+      "volatility": "Very High",
+      "category": "Scatter Pays"
+    },
+    {
+      "id": "wanted_dead",
+      "name": "Wanted Dead or a Wild",
+      "provider": "Hacksaw Gaming",
+      "image": "/images/wanted_dead.svg",
+      "votes": 84,
+      "rtp": "96.38%",
+      "max_win": "12,500x",
+      "volatility": "High",
+      "category": "VS Multipliers"
+    },
+    {
+      "id": "sweet_bonanza",
+      "name": "Sweet Bonanza 1000",
+      "provider": "Pragmatic Play",
+      "image": "/images/sweet_bonanza.svg",
+      "votes": 71,
+      "rtp": "96.53%",
+      "max_win": "25,000x",
+      "volatility": "High",
+      "category": "Tumble / Bomb"
+    },
+    {
+      "id": "san_quentin",
+      "name": "San Quentin xWays",
+      "provider": "Nolimit City",
+      "image": "/images/san_quentin.svg",
+      "votes": 52,
+      "rtp": "96.03%",
+      "max_win": "150,000x",
+      "volatility": "Extreme",
+      "category": "xWays / Lockdown"
+    },
+    {
+      "id": "sugar_rush",
+      "name": "Sugar Rush 1000",
+      "provider": "Pragmatic Play",
+      "image": "/images/sugar_rush.svg",
+      "votes": 39,
+      "rtp": "96.53%",
+      "max_win": "25,000x",
+      "volatility": "Very High",
+      "category": "Cluster Pays"
+    },
+    {
+      "id": "rip_city",
+      "name": "Rip City",
+      "provider": "Hacksaw Gaming",
+      "image": "/images/rip_city.svg",
+      "votes": 27,
+      "rtp": "96.16%",
+      "max_win": "12,500x",
+      "volatility": "Medium-High",
+      "category": "Expanding Wilds"
+    },
+    {
+      "id": "mental",
+      "name": "Mental",
+      "provider": "Nolimit City",
+      "image": "/images/mental.svg",
+      "votes": 21,
+      "rtp": "96.08%",
+      "max_win": "66,666x",
+      "volatility": "Extreme",
+      "category": "Autopsy / Chaos"
+    },
+    {
+      "id": "chaos_crew",
+      "name": "Chaos Crew 2",
+      "provider": "Hacksaw Gaming",
+      "image": "/images/chaos_crew.svg",
+      "votes": 12,
+      "rtp": "96.27%",
+      "max_win": "20,000x",
+      "volatility": "High",
+      "category": "Multipliers"
+    },
+    {
+      "id": "ze_zeus",
+      "name": "Ze Zeus",
+      "provider": "Hacksaw Gaming",
+      "image": "/images/ze_zeus.svg",
+      "votes": 8,
+      "rtp": "96.34%",
+      "max_win": "10,000x",
+      "volatility": "Medium",
+      "category": "Lightning Wilds"
+    },
+    {
+      "id": "dork_unit",
+      "name": "Dork Unit",
+      "provider": "Hacksaw Gaming",
+      "image": "/images/dork_unit.svg",
+      "votes": 6,
+      "rtp": "96.24%",
+      "max_win": "10,000x",
+      "volatility": "Medium",
+      "category": "Gift Bonanza"
+    }
+  ],
+  "featured_offers": {
+    "crypto": {
+      "name": "Shuffle",
+      "badge": "TOP CRYPTO CASINO OFFER",
+      "logo": "/images/shuffle_logo.svg",
+      "affiliate_url": "https://shuffle.com?r=MASHMANOS",
+      "code": "MASHMANOS",
+      "highlights": [
+        "100% First Deposit Bonus up to $1,000",
+        "VIP Rank Transfer from Stake, Roobet & Rollbit",
+        "Exclusive $500 Mashmanos Wager Leaderboard",
+        "Instant Crypto Withdrawals with zero fees"
+      ],
+      "rating": "5.0 ★★★★★",
+      "payout": "Instant Crypto",
+      "license": "Curacao eGaming"
+    },
+    "traditional": {
+      "name": "Mr Q Casino",
+      "badge": "TOP TRADITIONAL CASINO OFFER",
+      "logo": "/images/mrq_logo.svg",
+      "affiliate_url": "https://mrq.com?aff=MASHMANOS",
+      "code": "MASHMANOS",
+      "highlights": [
+        "30 Free Spins on Big Bass Splash (No Wager!)",
+        "Zero Wagering Requirements Ever — Keep What You Win",
+        "Instant UK & EU Bank Withdrawals in under 2 mins",
+        "Fully Licensed & Regulated by UKGC"
+      ],
+      "rating": "4.9 ★★★★★",
+      "payout": "Instant Bank Transfer",
+      "license": "UK Gambling Commission (UKGC)"
+    }
+  },
+  "crypto_casinos": [
+    {
+      "id": "shuffle",
+      "name": "Shuffle Casino",
+      "logo": "/images/shuffle_logo.svg",
+      "badge": "STREAMER CHOICE",
+      "bonus": "100% Match up to $1,000",
+      "secondary_perk": "VIP Level Match + $500 Race",
+      "code": "MASHMANOS",
+      "rating": 5.0,
+      "deposit_methods": ["BTC", "ETH", "USDT", "LTC", "SOL", "DOGE"],
+      "affiliate_url": "https://shuffle.com?r=MASHMANOS",
+      "pros": ["Instant withdrawals", "VIP Transfer available", "Live wager races", "Provably fair originals"],
+      "cons": ["KYC required for high tier VIPs"]
+    },
+    {
+      "id": "stake",
+      "name": "Stake.com",
+      "logo": "/images/stake_logo.svg",
+      "badge": "LARGEST CRYPTO CASINO",
+      "bonus": "200% Bonus up to $2,000",
+      "secondary_perk": "Instant Rakeback + Daily Reloads",
+      "code": "MASHMANOS",
+      "rating": 4.9,
+      "deposit_methods": ["BTC", "ETH", "USDT", "LTC", "XRP", "BNB"],
+      "affiliate_url": "https://stake.com/?c=MASHMANOS",
+      "pros": ["Industry standard liquidity", "Highest betting limits", "24/7 VIP concierge", "Weekly & Monthly bonuses"],
+      "cons": ["VPN required in restricted countries"]
+    },
+    {
+      "id": "roobet",
+      "name": "Roobet",
+      "logo": "/images/roobet_logo.svg",
+      "badge": "BEST COMMUNITY REWARDS",
+      "bonus": "70 Free Spins + $80 Cash Value",
+      "secondary_perk": "RooWards Daily Cashback System",
+      "code": "MASHMANOS",
+      "rating": 4.8,
+      "deposit_methods": ["BTC", "ETH", "LTC", "USDT", "Credit Card"],
+      "affiliate_url": "https://roobet.com/?ref=mashmanos",
+      "pros": ["Snoop Dogg exclusive games", "RooWards automated rakeback", "Fast and friendly UI", "Regular community events"],
+      "cons": ["Regional restrictions apply"]
+    },
+    {
+      "id": "rollbit",
+      "name": "Rollbit",
+      "logo": "/images/rollbit_logo.svg",
+      "badge": "INNOVATIVE CRYPTO CASINO",
+      "bonus": "Up to 15% Instant Rakeback",
+      "secondary_perk": "Crypto Futures 1000x + NFT Jackpots",
+      "code": "MASHMANOS",
+      "rating": 4.8,
+      "deposit_methods": ["BTC", "ETH", "SOL", "LTC", "USDT"],
+      "affiliate_url": "https://rollbit.com/r/mashmanos",
+      "pros": ["Up to 1000x crypto trading", "NFT collateral loans", "Daily lottery prize pool", "RLB token burns"],
+      "cons": ["Complex UI for beginners"]
+    }
+  ],
+  "traditional_casinos": [
+    {
+      "id": "mrq",
+      "name": "Mr Q Casino",
+      "logo": "/images/mrq_logo.svg",
+      "badge": "100% WAGER FREE",
+      "bonus": "30 Free Spins on Big Bass Splash",
+      "secondary_perk": "Zero Wagering Requirements",
+      "code": "MASHMANOS",
+      "rating": 4.9,
+      "deposit_methods": ["Visa", "Mastercard", "PayPal", "Bank Transfer", "Pay by Mobile"],
+      "affiliate_url": "https://mrq.com?aff=MASHMANOS",
+      "license": "UKGC License #51250",
+      "pros": ["All winnings paid in cash", "Instant bank withdrawals", "No caps on win amounts", "Excellent mobile app"],
+      "cons": ["Fiat only, no crypto"]
+    },
+    {
+      "id": "duelz",
+      "name": "Duelz Casino",
+      "logo": "/images/duelz_logo.svg",
+      "badge": "PVP CASINO BATTLES",
+      "bonus": "100% Bonus up to £100 + 100 Spins",
+      "secondary_perk": "Interactive Spell Duels with Players",
+      "code": "MASHMANOS",
+      "rating": 4.7,
+      "deposit_methods": ["Trustly", "Visa", "Skrill", "Neteller", "MuchBetter"],
+      "affiliate_url": "https://duelz.com?aff=MASHMANOS",
+      "license": "MGA & UKGC Licensed",
+      "pros": ["Fun RPG battle mechanics", "Daily cash prizes", "Trustly instant bank payouts", "Huge slot variety"],
+      "cons": ["30x wagering on bonus funds"]
+    },
+    {
+      "id": "leovegas",
+      "name": "LeoVegas",
+      "logo": "/images/leovegas_logo.svg",
+      "badge": "KING OF MOBILE CASINO",
+      "bonus": "Up to £200 Cash Bonus + 100 Spins",
+      "secondary_perk": "Award-Winning Mobile Experience",
+      "code": "MASHMANOS",
+      "rating": 4.8,
+      "deposit_methods": ["Visa", "Mastercard", "Apple Pay", "Bank Transfer"],
+      "affiliate_url": "https://leovegas.com?aff=MASHMANOS",
+      "license": "UKGC & MGA",
+      "pros": ["Multi-award winning operator", "Exclusive jackpot slots", "Fast customer support", "High payout stability"],
+      "cons": ["Standard 35x wagering"]
+    }
+  ],
+  "leaderboards": {
+    "shuffle": {
+      "title": "Shuffle $500 Weekly Race",
+      "sponsor": "Shuffle",
+      "prize_pool": "$500 USD",
+      "ends_in_days": 5,
+      "end_date": "2026-10-31T23:59:59Z",
+      "prizes": [
+        {"rank": 1, "prize": "$250.00", "badge": "Gold"},
+        {"rank": 2, "prize": "$125.00", "badge": "Silver"},
+        {"rank": 3, "prize": "$65.00", "badge": "Bronze"},
+        {"rank": 4, "prize": "$35.00", "badge": "4th Place"},
+        {"rank": 5, "prize": "$25.00", "badge": "5th Place"}
+      ],
+      "entries": [
+        {"rank": 1, "username": "CryptoWhale_99", "wagered": 142850.00, "prize": "$250.00", "status": "Leading"},
+        {"rank": 2, "username": "MarkJackpotHunter", "wagered": 98420.50, "prize": "$125.00", "status": "Chasing"},
+        {"rank": 3, "username": "SpinDoctor_UK", "wagered": 74110.25, "prize": "$65.00", "status": "Podium"},
+        {"rank": 4, "username": "ZeusSmash", "wagered": 53200.00, "prize": "$35.00", "status": "In Prize"},
+        {"rank": 5, "username": "BonusBuyer99", "wagered": 41800.75, "prize": "$25.00", "status": "In Prize"},
+        {"rank": 6, "username": "LuckyStrikeX", "wagered": 32540.00, "prize": "-", "status": "Ranked"},
+        {"rank": 7, "username": "DorkLover", "wagered": 26800.10, "prize": "-", "status": "Ranked"},
+        {"rank": 8, "username": "NolimitPsycho", "wagered": 19450.00, "prize": "-", "status": "Ranked"},
+        {"rank": 9, "username": "HacksawHero", "wagered": 14120.30, "prize": "-", "status": "Ranked"},
+        {"rank": 10, "username": "GambleGuru7", "wagered": 11300.00, "prize": "-", "status": "Ranked"}
+      ]
+    },
+    "stake": {
+      "title": "Stake $1,000 High Roller Derby",
+      "sponsor": "Stake",
+      "prize_pool": "$1,000 USD",
+      "ends_in_days": 8,
+      "end_date": "2026-11-03T23:59:59Z",
+      "prizes": [
+        {"rank": 1, "prize": "$500.00", "badge": "Gold"},
+        {"rank": 2, "prize": "$250.00", "badge": "Silver"},
+        {"rank": 3, "prize": "$125.00", "badge": "Bronze"},
+        {"rank": 4, "prize": "$75.00", "badge": "4th Place"},
+        {"rank": 5, "prize": "$50.00", "badge": "5th Place"}
+      ],
+      "entries": [
+        {"rank": 1, "username": "ApeDegenerate", "wagered": 312500.00, "prize": "$500.00", "status": "Leading"},
+        {"rank": 2, "username": "VegasSultan", "wagered": 248900.00, "prize": "$250.00", "status": "Chasing"},
+        {"rank": 3, "username": "PragmaticGod", "wagered": 182400.00, "prize": "$125.00", "status": "Podium"},
+        {"rank": 4, "username": "StakeRolls", "wagered": 124300.00, "prize": "$75.00", "status": "In Prize"},
+        {"rank": 5, "username": "PlinkoMaster", "wagered": 98700.00, "prize": "$50.00", "status": "In Prize"},
+        {"rank": 6, "username": "MinesLegend", "wagered": 76500.00, "prize": "-", "status": "Ranked"},
+        {"rank": 7, "username": "LimboKing", "wagered": 58200.00, "prize": "-", "status": "Ranked"},
+        {"rank": 8, "username": "CryptoBuster", "wagered": 42100.00, "prize": "-", "status": "Ranked"},
+        {"rank": 9, "username": "SlotsRUs", "wagered": 31000.00, "prize": "-", "status": "Ranked"},
+        {"rank": 10, "username": "ZeroEdge", "wagered": 22400.00, "prize": "-", "status": "Ranked"}
+      ]
+    },
+    "roobet": {
+      "title": "Roobet $500 Kangaroo Race",
+      "sponsor": "Roobet",
+      "prize_pool": "$500 USD",
+      "ends_in_days": 3,
+      "end_date": "2026-10-29T23:59:59Z",
+      "prizes": [
+        {"rank": 1, "prize": "$250.00", "badge": "Gold"},
+        {"rank": 2, "prize": "$125.00", "badge": "Silver"},
+        {"rank": 3, "prize": "$65.00", "badge": "Bronze"},
+        {"rank": 4, "prize": "$35.00", "badge": "4th Place"},
+        {"rank": 5, "prize": "$25.00", "badge": "5th Place"}
+      ],
+      "entries": [
+        {"rank": 1, "username": "RooRider_99", "wagered": 128400.00, "prize": "$250.00", "status": "Leading"},
+        {"rank": 2, "username": "CrashSurfer", "wagered": 92100.00, "prize": "$125.00", "status": "Chasing"},
+        {"rank": 3, "username": "DownUnderApe", "wagered": 64300.00, "prize": "$65.00", "status": "Podium"},
+        {"rank": 4, "username": "HopHopWin", "wagered": 49800.00, "prize": "$35.00", "status": "In Prize"},
+        {"rank": 5, "username": "TowersPro", "wagered": 38100.00, "prize": "$25.00", "status": "In Prize"},
+        {"rank": 6, "username": "DiceChamp", "wagered": 27400.00, "prize": "-", "status": "Ranked"},
+        {"rank": 7, "username": "KangaCash", "wagered": 21300.00, "prize": "-", "status": "Ranked"},
+        {"rank": 8, "username": "SnoopRolls", "wagered": 16500.00, "prize": "-", "status": "Ranked"},
+        {"rank": 9, "username": "OutbackSpin", "wagered": 12900.00, "prize": "-", "status": "Ranked"},
+        {"rank": 10, "username": "JoeyBagels", "wagered": 9800.00, "prize": "-", "status": "Ranked"}
+      ]
+    }
+  },
+  "bonus_hunts": [
+    {
+      "id": 42,
+      "date": "2026-10-22",
+      "title": "Stream #42: Nolimit City vs Hacksaw Bloodbath",
+      "start_cost": 2500,
+      "total_win": 4680,
+      "multiplier": 1.87,
+      "bonuses_opened": 20,
+      "best_win": "San Quentin xWays — $2,840 (710x)",
+      "status": "PROFIT",
+      "vod_url": "https://kick.com/mashmanos"
+    },
+    {
+      "id": 41,
+      "date": "2026-10-20",
+      "title": "Stream #41: Pragmatic 1000 Series Extravaganza",
+      "start_cost": 3000,
+      "total_win": 1940,
+      "multiplier": 0.65,
+      "bonuses_opened": 25,
+      "best_win": "Gates of Olympus 1000 — $890 (178x)",
+      "status": "BUST",
+      "vod_url": "https://kick.com/mashmanos"
+    },
+    {
+      "id": 40,
+      "date": "2026-10-18",
+      "title": "Stream #40: Wanted VS Duel at Sundown",
+      "start_cost": 2000,
+      "total_win": 5320,
+      "multiplier": 2.66,
+      "bonuses_opened": 18,
+      "best_win": "Wanted Dead or a Wild — $3,920 (980x)",
+      "status": "PROFIT",
+      "vod_url": "https://kick.com/mashmanos"
+    },
+    {
+      "id": 39,
+      "date": "2026-10-15",
+      "title": "Stream #39: $5,000 High Stakes Community Hunt",
+      "start_cost": 5000,
+      "total_win": 6850,
+      "multiplier": 1.37,
+      "bonuses_opened": 32,
+      "best_win": "Mental — $3,450 (690x)",
+      "status": "PROFIT",
+      "vod_url": "https://kick.com/mashmanos"
+    },
+    {
+      "id": 38,
+      "date": "2026-10-12",
+      "title": "Stream #38: Push Gaming Razor Returns Massacre",
+      "start_cost": 2000,
+      "total_win": 1420,
+      "multiplier": 0.71,
+      "bonuses_opened": 15,
+      "best_win": "Razor Returns — $760 (190x)",
+      "status": "BUST",
+      "vod_url": "https://kick.com/mashmanos"
+    },
+    {
+      "id": 37,
+      "date": "2026-10-09",
+      "title": "Stream #37: 30 Bonus Super Opening",
+      "start_cost": 3000,
+      "total_win": 7240,
+      "multiplier": 2.41,
+      "bonuses_opened": 30,
+      "best_win": "Rip City — $4,120 (1,030x)",
+      "status": "PROFIT",
+      "vod_url": "https://kick.com/mashmanos"
+    }
+  ]
+}

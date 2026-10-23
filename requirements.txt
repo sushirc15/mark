@@ -1,0 +1,2 @@
+# Mashmanos Casino Portal
+# Standard library dependencies only

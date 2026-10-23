@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" width="220" height="64">
+  <defs>
+    <linearGradient id="roo-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="100%" stop-color="#F5C542"/>
+    </linearGradient>
+  </defs>
+  <!-- Kangaroo Badge -->
+  <rect x="6" y="8" width="48" height="48" rx="12" fill="url(#roo-gold)"/>
+  <!-- Kangaroo vector shape -->
+  <path d="M22 43 C23 37 25 35 28 34 C31 33 33 30 32 26 C31 23 33 20 37 20 C38 22 36 24 38 25 C41 24 43 25 43 27 C42 30 38 32 36 34 C38 36 41 38 43 41 C38 41 34 39 31 38 C28 42 25 44 22 43 Z" fill="#1A1033"/>
+  <circle cx="21" cy="42" r="3.5" fill="#1A1033"/>
+  <!-- Typography -->
+  <text x="66" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="900" fill="#FFFFFF" letter-spacing="1">ROOBET</text>
+  <text x="67" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="800" fill="#F5C542" letter-spacing="2">CASINO &amp; SPORTS</text>
+</svg>
