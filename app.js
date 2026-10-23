@@ -85,35 +85,50 @@
   // 2. MOUSE GLARE SWEEP ON BUTTONS
   // ==========================================================
   function initGlareButtons() {
-    document.addEventListener('mousemove', (e) => {
-      const btn = e.target.closest('.btn-shine');
+    function updateGlare(clientX, clientY, target) {
+      const btn = target.closest('.btn-shine');
       if (!btn) return;
       const rect = btn.getBoundingClientRect();
-      const x = ((e.clientX - rect.left) / rect.width) * 100;
-      const y = ((e.clientY - rect.top) / rect.height) * 100;
-      btn.style.setProperty('--mx', `${x}%`);
-      btn.style.setProperty('--my', `${y}%`);
+      const x = ((clientX - rect.left) / rect.width) * 100;
+      const y = ((clientY - rect.top) / rect.height) * 100;
+      btn.style.setProperty('--mx', `${x.toFixed(1)}%`);
+      btn.style.setProperty('--my', `${y.toFixed(1)}%`);
+    }
+
+    document.addEventListener('mousemove', (e) => {
+      updateGlare(e.clientX, e.clientY, e.target);
     });
+
+    document.addEventListener('touchstart', (e) => {
+      if (e.touches && e.touches[0]) {
+        updateGlare(e.touches[0].clientX, e.touches[0].clientY, e.target);
+      }
+    }, { passive: true });
+
+    document.addEventListener('touchmove', (e) => {
+      if (e.touches && e.touches[0]) {
+        updateGlare(e.touches[0].clientX, e.touches[0].clientY, e.target);
+      }
+    }, { passive: true });
   }
 
   // ==========================================================
   // 3. HERO CANVAS: FLOATING COINS & SPARKLES + 3D PARALLAX
   // ==========================================================
   function initHeroEffects() {
-    // Parallax on Mouse Move
+    // Parallax on Mouse Move & Touch
     const hero = document.querySelector('.hero-wrapper');
     const markContainer = document.querySelector('.hero-mark-container');
     const spotlight = document.querySelector('.hero-spotlight');
 
     if (hero) {
-      hero.addEventListener('mousemove', (e) => {
+      function applyTilt(clientX, clientY) {
         const rect = hero.getBoundingClientRect();
         const centerX = rect.left + rect.width / 2;
         const centerY = rect.top + rect.height / 2;
-        const deltaX = (e.clientX - centerX) / (rect.width / 2);
-        const deltaY = (e.clientY - centerY) / (rect.height / 2);
+        const deltaX = (clientX - centerX) / (rect.width / 2);
+        const deltaY = (clientY - centerY) / (rect.height / 2);
 
-        // Tilt angles
         const tiltX = -(deltaY * 8).toFixed(2);
         const tiltY = (deltaX * 12).toFixed(2);
         const parallaxX = (deltaX * 15).toFixed(2);
@@ -129,9 +144,19 @@
           spotlight.style.setProperty('--parallax-x', `${-parallaxX * 0.8}px`);
           spotlight.style.setProperty('--parallax-y', `${-parallaxY * 0.8}px`);
         }
+      }
+
+      hero.addEventListener('mousemove', (e) => {
+        applyTilt(e.clientX, e.clientY);
       });
 
-      hero.addEventListener('mouseleave', () => {
+      hero.addEventListener('touchmove', (e) => {
+        if (e.touches && e.touches[0]) {
+          applyTilt(e.touches[0].clientX, e.touches[0].clientY);
+        }
+      }, { passive: true });
+
+      function resetTilt() {
         if (markContainer) {
           markContainer.style.setProperty('--tilt-x', '0deg');
           markContainer.style.setProperty('--tilt-y', '0deg');
@@ -142,21 +167,24 @@
           spotlight.style.setProperty('--parallax-x', '0px');
           spotlight.style.setProperty('--parallax-y', '0px');
         }
-      });
+      }
 
-      // Scroll-driven Hero Float Up & Disappear / Reappear
+      hero.addEventListener('mouseleave', resetTilt);
+      hero.addEventListener('touchend', resetTilt);
+
+      // Scroll-driven Hero Float Up & Disappear / Reappear (Adaptive for mobile)
       let ticking = false;
       function handleHeroScroll() {
         if (!ticking) {
           window.requestAnimationFrame(() => {
             const scrollY = window.scrollY || document.documentElement.scrollTop || 0;
-            // Float up and disappear over the first 350px of scroll
-            const maxDist = 360;
+            const isMobile = window.innerWidth <= 768;
+            const maxDist = isMobile ? 260 : 360;
             const progress = Math.min(1, Math.max(0, scrollY / maxDist));
             
-            const translateY = -progress * 160; // floats upward as we scroll down
+            const translateY = -progress * (isMobile ? 120 : 160);
             const opacity = Math.max(0, 1 - progress * 1.25);
-            const scale = 1 - progress * 0.12;
+            const scale = 1 - progress * (isMobile ? 0.08 : 0.12);
 
             if (markContainer) {
               markContainer.style.setProperty('--scroll-y', `${translateY.toFixed(1)}px`);
@@ -590,18 +618,26 @@
 
   function initMobileNav() {
     const hamburger = document.getElementById('hamburger-toggle');
+    const closeBtn = document.getElementById('sidebar-close-btn');
     const sidebar = document.getElementById('sidebar');
     const overlay = document.getElementById('sidebar-overlay');
 
     if (hamburger && sidebar && overlay) {
       hamburger.addEventListener('click', () => {
-        sidebar.classList.toggle('open');
-        overlay.classList.toggle('open');
+        const isOpen = sidebar.classList.toggle('open');
+        overlay.classList.toggle('open', isOpen);
+        document.body.classList.toggle('drawer-open', isOpen);
       });
 
       overlay.addEventListener('click', () => {
         closeMobileSidebar();
       });
+
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+          closeMobileSidebar();
+        });
+      }
     }
   }
 
@@ -610,6 +646,7 @@
     const overlay = document.getElementById('sidebar-overlay');
     if (sidebar) sidebar.classList.remove('open');
     if (overlay) overlay.classList.remove('open');
+    document.body.classList.remove('drawer-open');
   }
 
   // ==========================================================
